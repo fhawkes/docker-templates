@@ -1,0 +1,6 @@
+.settings
+.idea
+.vscode/
+.DS_Store
+docker/.data/
+*.iml
