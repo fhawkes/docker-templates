@@ -24,21 +24,13 @@
   <WebUI>[IP]:[HOMEBRIDGE_CONFIG_UI_PORT:8080]</WebUI>
   <Icon>https://gitlab.floydhawkes.space/fhawkes/docker-templates/raw/master/images/homekit-icon.png</Icon>
 	<Environment>
-			<Variable>
-			<Name>Enable UI</Name>
-			<Target>HOMEBRIDGE_CONFIG_UI</Target>
-			<Default>1</Default>
-			<Description>Whether or not to enable the Web Console. 1 to enable 0 to disable.</Description>
-			<Display>advanced</Display>
-			<Required>false</Required>
+		<Variable>
+			<Name>HOMEBRIDGE_CONFIG_UI</Name>
+			<Value>1</Value>
 		</Variable>
 		<Variable>
-			<Name>UI Port</Name>
-			<Target>HOMEBRIDGE_CONFIG_UI_PORT</Target>
-			<Default>8080</Default>
-			<Description>The port the Web Console should run on.</Description>
-			<Display>advanced</Display>
-			<Required>false</Required>
+			<Name>HOMEBRIDGE_CONFIG_UI_PORT</Name>
+			<Value>8080</Value>
 		</Variable>
 	</Environment>
 	<Data>
